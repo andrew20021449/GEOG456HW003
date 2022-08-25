@@ -12,13 +12,13 @@
 </body>
 <script>
 const fileUrl = 'https://raw.githubusercontent.com/andrew20021449/GEOG456HW003/main/BARTData.csv'
-let myResult;
+let BARTRidership;
 Papa.parse(fileUrl, {
     download: true,
     header: true,
     complete: function(result) {
         // console.log(result.data)
-        myResult = result.data
+        BARTRidership = result.data
     }
 })
 </script>
