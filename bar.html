@@ -64,5 +64,5 @@ var data = [trace1];
 
 Plotly.newPlot('myDiv', data, layout);
     </script>
-<p>Note: please disable browser cache to view these graphs (found in 3 dots -> more tools -> dev tools -> network on chrome)</p>
+<p>Making this was simple with a few handy tools. PapaParse made converting my excel file to JSON easy, and plotly's built in function covered most of the graph. All that was left was to iterate my variables, date and ridership, through the x and y variables respectively. Bar plots have lots of advantages! The difference in heights between bars makes clear increases and decreases within the data, and can be used to compare two sets of y values at each x value. A disadvantage would be that large amounts of data mean that the numerical value can get lost the further from the y axis the plot goes.</p>
 </html>
